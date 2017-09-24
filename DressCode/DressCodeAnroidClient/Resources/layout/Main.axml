@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <TableLayout
+            android:id="@+id/tableLayout1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent">
+            <TableRow
+                android:id="@+id/tableHeader"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dip">
+                <TextView
+                    android:id="@+id/dayTextView"
+                    android:text="Dag"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                <TextView
+                    android:id="@+id/weatherTextView"
+                    android:text="Väder"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                <TextView
+                    android:id="@+id/rainfallTextView"
+                    android:text="Nederbörd"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                <TextView
+                    android:id="@+id/windTextView"
+                    android:text="Vind (byvind)"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+                <TextView
+                    android:id="@+id/sunTextView"
+                    android:text="Soltider Upp/Ner"
+                    android:textAppearance="?android:attr/textAppearanceMedium" />
+            </TableRow>
+        </TableLayout>
+    </ScrollView>
+</LinearLayout>
